@@ -8,3 +8,6 @@ public/
 .env
 .env.build
 .vercel
+.idea
+yarn.lock
+README.md
