@@ -1,7 +1,12 @@
 ---
 title: Bean的生命周期
 date: 2020-01-04
-tags: spring,声明周期
+categories:
+    - spring 
+tags: 
+    - spring
+    - 生命周期
+
 ---
 # Bean的生命周期
 
