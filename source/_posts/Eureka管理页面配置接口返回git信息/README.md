@@ -1,3 +1,8 @@
+---
+title: Eureka管理页面配置
+date: 2020-01-07
+tags: Eureka
+---
 # Eureka管理页面配置/actuator/info接口返回git信息
 
 ## 前言
