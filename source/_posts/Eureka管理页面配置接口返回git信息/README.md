@@ -4,6 +4,7 @@ date: 2020-01-07
 tags: Eureka
 categories:
     - spring
+password: 12341234
 ---
 # Eureka管理页面配置/actuator/info接口返回git信息
 
