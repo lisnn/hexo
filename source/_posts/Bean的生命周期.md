@@ -6,9 +6,8 @@ categories:
 tags: 
     - spring
     - 生命周期
-
 ---
-# Bean的生命周期
+
 
 ## 前言
 
@@ -22,7 +21,7 @@ tags:
 
 但是在Spring通过IOC容器进行管理之后，Bean 的生命周期就变得更加复杂了，下图展示了Bean的构造过程
 
-![image-20200614155732584](images/image-20200614155732584.png)
+![image-20200614155732584](image-20200614155732584.png)
 
 ## Bean的生命周期
 
