@@ -246,17 +246,18 @@ read_more_btn: true
 post_meta:
   item_text: true
   created_at: true
-  updated_at:
-    enable: true
-    another_day: true
+#  显示在文章头部的更新时间
+#  updated_at:
+#    enable: true
+#    another_day: true
   categories: true
 
 # Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
 symbols_count_time:
-  separated_meta: true
-  item_text_post: true
-  item_text_total: true
+  separated_meta: false
+  item_text_post: false
+  item_text_total: false
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: false
@@ -638,6 +639,7 @@ livere_uid: # <your_uid>
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
 gitalk:
   enable: false
+  id_prefix: itfanr
   github_id: # GitHub repo owner
   repo: # Repository name to store issues
   client_id: # GitHub Application Client ID
@@ -647,7 +649,7 @@ gitalk:
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
-  language:
+  language: zh-CN
 
 
 # ---------------------------------------------------------------
@@ -715,7 +717,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: fa fa-user
   total_views: true

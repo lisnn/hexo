@@ -111,7 +111,7 @@ live2d:
     show: true
 
 excerpt:
-  depth: 5
+  depth: 1
   excerpt_excludes: []
   more_excludes: []
   hideWholePostExcerpts: true
